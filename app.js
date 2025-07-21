@@ -20,9 +20,9 @@ app.get("/",(req,res) => {
 
 // test port
 app.listen(port, ()=> {
-    // console.log(`Listening on port ${port}`);
+    console.log(`Listening on port ${port}`);
     // console.log(`Listening on port ${port}`+ chalk.red("xx"));
-    debug(`Listening on port ${port}`+ chalk.red("xx"));
+    // debug(`Listening on port ${port}`+ chalk.red("xx"));
 })
 
 // run by => node app.js
