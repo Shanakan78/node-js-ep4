@@ -1,0 +1,50 @@
+# Node modules (dependencies)
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime files
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# dotenv environment files
+.env
+.env.*.local
+
+# Optional npm cache directory
+.npm/
+
+# VSCode and editor settings
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Build output (ถ้ามี)
+dist/
+build/
+coverage/
+
+# Debug output
+debug.log
+
+# Others
+*.tgz
+*.swp
+
+# TypeScript
+*.tsbuildinfo
+
